@@ -1,0 +1,67 @@
+@charset "utf-8"; /****   Developed by http://www.freetimelearning.com/    *****/
+*{
+ margin-left:auto;
+ margin-right:auto;
+}
+body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
+.m30_auto{ margin:30px auto;}
+.main{ width:1024px;}
+.clearfix{ clear:both;}
+
+/*********** Start Header (or) Menu **********/
+.header{width:1024px; float:left; border-top:7px solid #0066dd; background:#F2F2F2;}
+.header-left{ width:250px; float:left;}
+.header-right{  width:774px; float:left;}
+.header-right ul{list-style:none;}
+.header-right ul li{
+ list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
+ margin:5px 0px 12px; float:left; font-weight:bold;
+}
+.header-right ul li a{ padding:5px 20px 10px; margin:2px 0px 5px; text-decoration:none; color:#000;}
+.header-right ul li a:hover{ color:#0099dd;}
+/*********** End Header (or) Menu **********/
+ 
+/************* Start Slider (or) Banner *************/
+.banner{ width:1024px; background:url(../imges/slider-bg.jpg); height:293px; float:left; }
+.banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
+.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:#FFF; font-weight:600;}
+.banner-links a:hover{ color:#000;}
+/************** End Slider (or) Banner *************/
+
+/*************** Start Content *****************/ 
+.content{ width:1022px; height:auto; border:1px solid #CCC; float:left; padding-bottom:20px;}
+.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
+.content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
+.content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
+.content-header a{ color:#0099dd; text-decoration:none;}
+.content-header a:hover{ color:#069;}
+
+.content-bottom-boxes{ width:300px; float:left; padding:0px 20px; color:#000;}
+.content-bottom-bg{ background:#ebebeb; float:left; padding:20px 15px;}
+.content-bottom-bg-header{ font-size:18px; padding-bottom:15px;}
+.content-bottom-bg-p{ line-height:24px;}
+/************ End Content **************/
+
+/************ Start Testimonials ************/
+.testimonials{ width:1024px; background:url(../imges/testimonials-bg.jpg); height:309px; float:left; }
+.testimonials-h4{ font-size:26px; line-height:46px; padding:80px 100px; color:#FFF; text-align:center;}
+.testimonials a{ color:#CCC; font-size:18px; padding:20px 0px; text-align:center; text-decoration:none;}
+.testimonials a:hover{ color:#FFF;}
+/************ End Testimonials ************/
+
+/************ Start Footer *****************/
+#footer{ width:1024px; float:left; background:#CCC;}
+.footer-parts{ width:300px; float:left; padding:0px 20px;}
+.footer-parts-h4{ font-size:18px; padding:15px 10px 0px;}
+.footer-parts ul{list-style:none; padding:0px;}
+.footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
+.footer-parts ul li a{padding:8px 10px; margin:2px 0px; text-decoration:none; color:#000;}
+.footer-parts ul li a:hover{color:#FFF;}
+.copyrights{ width:964px; font-size:12px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; }
+.copyrights-left{ width:664px; float:left;}
+.copyrights-left a{ color:#FFF; text-decoration:none;}
+.copyrights-left a:hover{color:#CCC;}
+.copyrights-right{ width:300px; float:left; text-align:right;}
+.copyrights-right a{ color:#FFF; text-decoration:none;}
+.copyrights-right a:hover{color:#CCC;}
+/*************** End Footer *
