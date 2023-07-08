@@ -6,10 +6,6 @@
 body {
   margin: 0;
   padding: 12px;
-  background-image: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=360);
-  background-repeat:no-repeat;
-  background-position:top;
-  background-size: cover;
 }
 
 body.hide-scroll::-webkit-scrollbar {
